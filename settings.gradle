@@ -1,1 +1,4 @@
 rootProject.name = 'SomaUniversity_AuthServer'
+
+include 'auth-domain'
+include 'auth-infrastructure'
