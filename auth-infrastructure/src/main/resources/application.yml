@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: soma-university-auth-server
+    
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: ${url}
+    username: ${username}
+    password: ${password}
+
+
