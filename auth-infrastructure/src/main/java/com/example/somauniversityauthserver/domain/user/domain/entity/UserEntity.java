@@ -1,9 +1,11 @@
 package com.example.somauniversityauthserver.domain.user.domain.entity;
 
+import com.example.somauniversityauthserver.domain.global.BaseIdEntity;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.experimental.SuperBuilder;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -15,13 +17,10 @@ import javax.persistence.Table;
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
+@SuperBuilder
 @Table(name = "tbl_user")
 @Entity
-public class UserEntity {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+public class UserEntity extends BaseIdEntity {
 
     @Column(columnDefinition = "VARCHAR(15)", nullable = false, unique = true)
     private String accountId;
