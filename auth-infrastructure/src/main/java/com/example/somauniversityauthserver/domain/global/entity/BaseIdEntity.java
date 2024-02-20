@@ -1,4 +1,4 @@
-package com.example.somauniversityauthserver.domain.global;
+package com.example.somauniversityauthserver.domain.global.entity;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

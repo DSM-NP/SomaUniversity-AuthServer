@@ -1,6 +1,6 @@
 package com.example.somauniversityauthserver.domain.user.domain.entity;
 
-import com.example.somauniversityauthserver.domain.global.BaseIdEntity;
+import com.example.somauniversityauthserver.domain.global.entity.BaseIdEntity;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
