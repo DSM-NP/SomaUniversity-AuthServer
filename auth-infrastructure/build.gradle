@@ -22,7 +22,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 
     // db connectors
-    testImplementation 'com.h2database:h2'
+    // testImplementation 'com.h2database:h2'
     runtimeOnly 'mysql:mysql-connector-java'
 
     // web
