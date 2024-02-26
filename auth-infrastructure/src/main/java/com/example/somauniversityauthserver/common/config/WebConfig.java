@@ -1,4 +1,4 @@
-package com.example.somauniversityauthserver.common.security;
+package com.example.somauniversityauthserver.common.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
